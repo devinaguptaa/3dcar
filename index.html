@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Model Viewer | Premium Design</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="loader">
+        <div class="spinner"></div>
+        <p>Loading Masterpiece...</p>
+    </div>
+
+    <header>
+        <div class="logo">ANTIGRAVITY</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <div class="content-wrapper">
+            <div class="hero-text">
+                <h1>911 <br><span>LEGACY</span></h1>
+                <p>Performance meets open-air freedom. Interaction through exploration.</p>
+                <div class="cta-buttons">
+                    <button class="btn-primary">Explore</button>
+                    <button class="btn-secondary">Details</button>
+                </div>
+            </div>
+        </div>
+        <div id="canvas-container"></div>
+    </main>
+
+    <div class="cursor-hint">
+        <span>CLICK AND DRAG TO ROTATE</span>
+        <div class="mouse-icon"></div>
+    </div>
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
